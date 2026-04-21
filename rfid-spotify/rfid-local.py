@@ -5,7 +5,7 @@ import pygame
 # ---------------- INIT ----------------
 pygame.mixer.init()
 
-ser = serial.Serial('COM13', 9600)
+ser = serial.Serial('COM8', 9600)
 time.sleep(2)
 
 last_uid = ""
